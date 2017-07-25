@@ -14,29 +14,17 @@ legacyApp.controller('FirstDialogCtrl', function($scope, ngDialog) {
     };
 });
 
-legacyApp.controller('DashboardController', function($scope) {
-    $scope.message = 'Hello from DashboardController';
-});
+legacyApp.controller('DashboardController', function($scope) {});
 
-legacyApp.controller('LettersController', function($scope) {
-    $scope.message = 'Hello from LettersController';
-});
+legacyApp.controller('LettersController', function($scope) {});
 
-legacyApp.controller('RegisterController', function($scope) {
-    $scope.message = 'Hello from RegisterController';
-});
+legacyApp.controller('RegisterController', function($scope) {});
 
-legacyApp.controller('ProfileController', function($scope) {
-    $scope.message = 'Hello from ProfileController';
-});
+legacyApp.controller('ProfileController', function($scope) {});
 
-legacyApp.controller('ConfirmAppointmentController', function($scope) {
-    $scope.message = 'Hello from ConfirmAppointmentController';
-});
+legacyApp.controller('ConfirmAppointmentController', function($scope) {});
 
-legacyApp.controller('RequestAccessController', function($scope) {
-    $scope.message = 'Hello from RequestAccessController';
-});
+legacyApp.controller('RequestAccessController', function($scope) {});
 
 legacyApp.controller('VaultsController', function($scope) {
     $scope.title1 = 'Snowden';
@@ -48,10 +36,6 @@ legacyApp.controller('VaultsController', function($scope) {
 
 });
 
-legacyApp.controller('VaultsContentsController', function($scope) {
-    $scope.message = 'Hello from VaultsContentsController';
-});
+legacyApp.controller('VaultsContentsController', function($scope) {});
 
-legacyApp.controller('ContactsController', function($scope) {
-    $scope.message = 'Hello from ContactsController';
-});
+legacyApp.controller('ContactsController', function($scope) {});
