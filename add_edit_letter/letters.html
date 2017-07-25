@@ -1,0 +1,89 @@
+<!-- LegacyApp -->
+<div class="col-xs-12 snt-background-letters" id="snt-background" ng-controller="LandingController">
+    <div class="snt-container-main container col-xs-12 col-md-10 col-md-offset-1">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default col-xs-12 snt-navbar" role="navigation" id="snt-nav">
+            <div class="pull-left" id="snt-nav-home">
+                <a href="#/dashboard">LegacyApp</a>
+            </div>
+            <div id="snt-nav-user">
+                <a href="#/profile">John Doe
+        <img class="img-rounded avatar" src="img/DP.png" alt="Avatar" id="snt-nav-avatar">
+      </a>
+                <a href="#/dashboard" class="glyphicon glyphicon-cog" id="snt-nav-settings"></a>
+            </div>
+        </nav>
+        <!-- Navigation End -->
+        <!-- Main Window -->
+        <div class="snt-container container col-xs-12" id="main-window">
+            <!-- Menu -->
+            <nav class="navbar navbar-toggleable-md container col-xs-12 col-md-3" id="menu">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="menu-btn btn glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item col-xs-12">
+                            <a class="nav-link" href="#/dashboard"><span type="button" class="menu-btn btn glyphicon glyphicon-home"></span> Dashboard</a>
+                        </li>
+                        <li class="nav-item col-xs-12">
+                            <a class="nav-link" href="#/vaults"><span type="button" class="menu-btn btn glyphicon glyphicon-lock"></span> Vaults</a>
+                        </li>
+                        <li class="nav-item col-xs-12">
+                            <a class="nav-link" href="#/contacts"><span type="button" class="menu-btn btn glyphicon glyphicon-user"></span> Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Menu End -->
+            <!-- Active -->
+            <div class="container col-xs-12 col-md-9 active" id="active">
+                <!-- Header -->
+                <div class="title container col-xs-12">
+                    <h4>
+                        <a href="#/vaults">Letters</a>
+                    </h4>
+                </div>
+                <!-- Header End -->
+                <!-- Body -->
+                <div class="container col-xs-10 active" id="letters">
+                    <div class="container col-xs-12" id="contact-form">
+                        <input class="container col-xs-4" type="text" name="rname" placeholder="Name" id="rname">
+                        <input class="container col-xs-4" type="email" name="remail" placeholder="Email" id="remail">
+                        <input class="container col-xs-4" type="text" name="rnumber" placeholder="Phone Number" id="rnumber">
+                    </div>
+
+                    <div class="container col-xs-12">
+                        <input class="col-xs-12" type="text" name="etitle" placeholder="Enter Title" id="etitle">
+                    </div>
+
+                    <div class="container col-xs-12 teditor fr-view" id="froala-editor">
+                        <script>
+                            $(function() {
+                                $('div#froala-editor').froalaEditor({
+                                    height: 150,
+                                    heightMax: 150,
+                                    toolbarButtons: ['undo', 'redo', '|', 'bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript', 'outdent', 'indent', 'clearFormatting', 'insertTable', 'html'],
+                                    toolbarButtonsXS: ['undo', 'redo', '-', 'bold', 'italic', 'underline']
+                                })
+                            });
+                        </script>
+                    </div>
+
+                    <div class="container col-xs-12" id="add-photos">
+                        <h5>Add Photos</h5>
+                        <div class="container col-xs-12" id="photos">
+                            <button type="button" class="btn btn-default btn-lg">
+                        <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
+                    </button>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-default btn-sm col-sm-2" id="save-letter">SAVE</button>
+                </div>
+                <!-- Body End -->
+            </div>
+            <!-- Active End -->
+        </div>
+        <!-- Main Window End -->
+    </div>
+</div>

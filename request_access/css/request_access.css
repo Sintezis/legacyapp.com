@@ -1,0 +1,18 @@
+#request-access-button {
+    display: block;
+    background-color: #8e6d64;
+	color: white;
+    border: none;
+}
+
+.email-input {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.trustee-confirmation {
+    position: relative;
+    float: left;
+    display: block;
+}

@@ -1,0 +1,60 @@
+<!-- style guide rules 
+1. use tabs instead of spaces! 
+tab size: 2 
+2. css classes order eg.
+  <elm class="snt-custom-class bootstrap-class"></elm>
+3. write short comment explanations for elements and events,
+explain the code and keep it simple
+4. !!WARNING!! html, header, body and similar tags are omttied for a reason, not by accident!
+Checkout the following google style guide https://google.github.io/styleguide/htmlcssguide.xml
+style guide rules end -->
+
+<!doctype html>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+<title>Sintezis</title>
+<base href="#/">
+
+<!-- Latest compiled and minified Boostrap 3 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="main.css">
+<!-- ng-dialog CSS -->
+<link rel="stylesheet" href="ng-dialog/css/ngDialog.min.css">
+<link rel="stylesheet" href="ng-dialog/css/ngDialog-theme-default.css">
+<!-- Froala editor CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/css/froala_editor.pkgd.min.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/css/froala_style.min.css" type="text/css" />
+
+<!-- here we use body tag to add custom classes to it, no need to close it, or account it in tags hierarchy  -->
+
+<body ng-app="legacyApp">
+
+    <!-- Content -->
+    <div class="container-fluid">
+        <div class="row" ng-view>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular-route.min.js"></script>
+    <script src="main.js"></script>
+    <script src="controllers.js"></script>
+    <script src="ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <!-- ng dialog JS -->
+    <script src="ng-dialog/js/ngDialog.min.js"></script>
+    <!-- Froala editor JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/js/froala_editor.pkgd.min.js"></script>

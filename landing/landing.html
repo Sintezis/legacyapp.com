@@ -1,0 +1,35 @@
+<!-- LegacyApp Dashboard-->
+<div class="col-xs-12" id="landing" ng-controller="LandingController">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default col-xs-12 pull-right" role="navigation" id="snt-nav-landing">
+      <div class="" id="snt-nav-register">
+        <a class="navbar-brand pull-right" href="#/register">Register</a>
+      </div>
+      <div class="" id="snt-nav-login">
+        <a class="navbar-brand pull-right" href="#/" ng-click="open()">Login</a>
+      </div>
+    </nav>
+    <!-- Main Window -->
+    <div class="snt-container container col-xs-12" id="main-window">
+        <!-- Active -->
+        <div class="landing container col-xs-12">
+            <h2 class="title-main">
+              <a href="#/">LegacyApp</a>
+            </h2>
+            <button type="button" class="btn btn-default btn-lg landing-btn" id="get-your-vault-btn">Get Your Vault</button>
+            <button type="button" class="btn btn-default btn-lg landing-btn" id="request-vault-access-btn">Request Vault Access</button>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script type="text/ng-template" id="firstDialog">
+  <div class="ngdialog-container">
+    <h3 class="title-main">Login</h3>
+    <input class="login-info" type="text" name="rname" placeholder="Email" id="email">
+    <input class="login-info" type="password" name="rname" placeholder="Password" id="password">
+    <button type="button" class="btn btn-default btn-md" id="login-button">Login</button>
+  </div>
+</script>
