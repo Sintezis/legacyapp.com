@@ -1,0 +1,1 @@
+legacyApp.controller('LettersController', function($scope) {});

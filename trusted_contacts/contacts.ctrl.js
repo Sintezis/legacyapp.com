@@ -1,0 +1,1 @@
+legacyApp.controller('ContactsController', function($scope) {});

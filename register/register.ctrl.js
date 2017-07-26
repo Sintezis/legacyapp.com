@@ -1,0 +1,1 @@
+legacyApp.controller('RegisterController', function($scope) {});

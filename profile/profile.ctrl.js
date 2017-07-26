@@ -1,0 +1,1 @@
+legacyApp.controller('ProfileController', function($scope) {});

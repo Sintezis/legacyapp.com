@@ -1,0 +1,1 @@
+legacyApp.controller('ConfirmAppointmentController', function($scope) {});

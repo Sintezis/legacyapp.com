@@ -1,0 +1,1 @@
+legacyApp.controller('VaultsContentsController', function($scope) {});

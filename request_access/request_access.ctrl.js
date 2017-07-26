@@ -1,0 +1,1 @@
+legacyApp.controller('RequestAccessController', function($scope) {});
